@@ -124,38 +124,7 @@
 <!-- magnific popup js cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
-<script>
-
-$(document).ready(function(){
-
-  $('.buttons').click(function(){
-
-      $(this).addClass('active').siblings().removeClass('active');
-
-      var filter = $(this).attr('data-filter')
-
-      if(filter == 'all'){
-          $('.image').show(400);
-      }else{
-          $('.image').not('.'+filter).hide(200);
-          $('.image').filter('.'+filter).show(400);
-      }
-
-  });
-
-  $('.gallery').magnificPopup({
-
-      delegate:'a',
-      type:'image',
-      gallery:{
-          enabled:true
-      }
-
-  });
-
-});
-
-</script>
+<script src="../js/gallery.js"></script>
   
     </div>
 
