@@ -1,0 +1,25 @@
+.footer {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer .logo img {
+  width: 50px;
+  height: 50px;
+}
+.footer .contact-info {
+  margin: 10px 0;
+}
+.footer .contact-info i {
+  margin-right: 5px;
+}
+.footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer .social-icons a:hover {
+  color: #1da1f2;
+}
